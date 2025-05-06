@@ -1,21 +1,4 @@
 .
-├── assets
-│   ├── favicon_dark
-│   │   ├── android-chrome-192x192.png
-│   │   ├── android-chrome-512x512.png
-│   │   ├── apple-touch-icon.png
-│   │   ├── favicon-16x16.png
-│   │   ├── favicon-32x32.png
-│   │   ├── favicon.ico
-│   │   └── site.webmanifest
-│   └── favicon_light
-│       ├── android-chrome-192x192.png
-│       ├── android-chrome-512x512.png
-│       ├── apple-touch-icon.png
-│       ├── favicon-16x16.png
-│       ├── favicon-32x32.png
-│       ├── favicon.ico
-│       └── site.webmanifest
 ├── facts.json
 ├── index.js
 ├── LICENSE
@@ -24,4 +7,4 @@
 ├── README.md
 └── tree.txt
 
-4 directories, 21 files
+1 directory, 7 files
