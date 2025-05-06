@@ -1,12 +1,12 @@
 {
-  "name": "no-as-service",
+  "name": "know-as-a-service",
   "version": "1.0.0",
-  "description": "A lightweight API that returns random rejection or no reasons.",
+  "description": "A lightweight API that returns random fact about Gaurav Kabra.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "hotheadhacker",
+  "author": "Gaurav Kabra",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",

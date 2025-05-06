@@ -1,0 +1,9 @@
+.
+├── facts.json
+├── index.js
+├── package-lock.json
+├── package.json
+├── README.md
+└── tree.txt
+
+1 directory, 6 files

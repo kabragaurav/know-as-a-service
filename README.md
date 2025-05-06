@@ -1,34 +1,15 @@
-# ❌ No-as-a-Service
+# 📚 Know-as-a-Service (KaaS)
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/hotheadhacker/no-as-a-service/main/assets/imgs/naas-with-no-logo-bunny.png" width="800" alt="No-as-a-Service Banner" width="70%"/>
-</p>
+Ever needed a quick fact about Gaurav Kabra?  
+This tiny API returns random, interesting facts about Gaurav Kabra — his education, work experience, skills, and achievements.
 
-
-Ever needed a graceful way to say “no”?  
-This tiny API returns random, generic, creative, and sometimes hilarious rejection reasons — perfectly suited for any scenario: personal, professional, student life, dev life, or just because.
-
-Built for humans, excuses, and humor.
-
-<!-- GitAds Sponsorship Badge -->
-<p align="center">
-  <a href="https://docs.gitads.dev/">
-    <img src="https://gitads.dev/assets/images/sponsor/camos/camo-3.png" alt="Sponsored by GitAds" />
-  </a>
-</p>
-
-<p align="center">
-  This project is <strong>sponsored by <a href="https://docs.gitads.dev/docs/getting-started/publishers">GitAds</a></strong>.<br>
-  You can get your GitHub repository sponsored too — <a href="https://docs.gitads.dev/docs/getting-started/publishers">create your account now</a>.
-</p>
-
----
+Built for showcasing Gaurav's professional profile in a programmatic way.
 
 ## 🚀 API Usage
 
 **Base URL**
 ```
-https://naas.isalman.dev/no
+https://know-as-a-service.netlify.app/fact
 ```
 
 **Method:** `GET`  
@@ -36,28 +17,28 @@ https://naas.isalman.dev/no
 
 ### 🔄 Example Request
 ```http
-GET /no
+GET /fact
 ```
 
 ### ✅ Example Response
 ```json
 {
-  "reason": "This feels like something Future Me would yell at Present Me for agreeing to."
+  "fact": "Gaurav Kabra holds the position of Member of Technical Staff at Salesforce."
 }
 ```
 
-Use it in apps, bots, landing pages, Slack integrations, rejection letters, or wherever you need a polite (or witty) no.
+Use it to learn more about Gaurav Kabra's professional background, skills, and accomplishments.
 
 ---
 
 ## 🛠️ Self-Hosting
 
-Want to run it yourself? It’s lightweight and simple.
+Want to run it yourself? It's lightweight and simple.
 
 ### 1. Clone this repository
 ```bash
-git clone https://github.com/hotheadhacker/no-as-a-service.git
-cd no-as-a-service
+git clone https://github.com/kabragaurav/know-as-a-service.git
+cd know-as-a-service
 ```
 
 ### 2. Install dependencies
@@ -72,7 +53,7 @@ npm start
 
 The API will be live at:
 ```
-http://localhost:3000/no
+http://localhost:3000/fact
 ```
 
 You can also change the port using an environment variable:
@@ -85,9 +66,9 @@ PORT=5000 npm start
 ## 📁 Project Structure
 
 ```
-no-as-service/
+know-as-a-service/
 ├── index.js            # Express API
-├── reasons.json        # 1000+ universal rejection reasons
+├── facts.json          # Collection of facts about Gaurav Kabra
 ├── package.json
 └── README.md
 ```
@@ -96,18 +77,18 @@ no-as-service/
 
 ## 📦 package.json
 
-For reference, here’s the package config:
+For reference, here's the package config:
 
 ```json
 {
-  "name": "no-as-service",
+  "name": "know-as-a-service",
   "version": "1.0.0",
-  "description": "A lightweight API that returns random rejection or no reasons.",
+  "description": "A lightweight API that returns random fact about Gaurav Kabra.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "hotheadhacker",
+  "author": "Gaurav Kabra",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
@@ -120,10 +101,10 @@ For reference, here’s the package config:
 
 ## 👤 Author
 
-Created with creative stubbornness by [hotheadhacker](https://github.com/hotheadhacker)
+Created by [Gaurav Kabra](https://github.com/kabragaurav)
 
 ---
 
 ## 📄 License
 
-MIT — do whatever, just don’t say yes when you should say no.
+MIT
