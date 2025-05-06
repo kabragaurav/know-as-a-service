@@ -1,5 +1,4 @@
 .
-├── 404.html
 ├── assets
 │   ├── favicon_dark
 │   │   ├── android-chrome-192x192.png
@@ -18,16 +17,11 @@
 │       ├── favicon.ico
 │       └── site.webmanifest
 ├── facts.json
-├── index.html
 ├── index.js
 ├── LICENSE
-├── netlify
-│   └── functions
-│       └── fact.js
-├── netlify.toml
 ├── package-lock.json
 ├── package.json
 ├── README.md
 └── tree.txt
 
-6 directories, 25 files
+4 directories, 21 files
