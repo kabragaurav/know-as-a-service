@@ -8,17 +8,11 @@ Built for showcasing Gaurav's professional profile in a programmatic way.
 ## 🚀 API Usage
 
 **Base URL**
-```
-https://know-as-a-service.netlify.app/fact
-```
-
-**Method:** `GET`  
-**Rate Limit:** `120 requests per minute per IP`
-
-### 🔄 Example Request
 ```http
 GET /fact
 ```
+
+**Rate Limit:** `120 requests per minute per IP`
 
 ### ✅ Example Response
 ```json
@@ -66,11 +60,16 @@ PORT=5000 npm start
 ## 📁 Project Structure
 
 ```
-know-as-a-service/
-├── index.js            # Express API
-├── facts.json          # Collection of facts about Gaurav Kabra
+.
+├── facts.json
+├── index.js
+├── LICENSE
+├── package-lock.json
 ├── package.json
-└── README.md
+├── README.md
+└── tree.txt
+
+1 directory, 7 files
 ```
 
 ---
