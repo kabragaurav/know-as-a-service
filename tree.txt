@@ -18,11 +18,16 @@
 │       ├── favicon.ico
 │       └── site.webmanifest
 ├── facts.json
+├── index.html
 ├── index.js
 ├── LICENSE
+├── netlify
+│   └── functions
+│       └── fact.js
+├── netlify.toml
 ├── package-lock.json
 ├── package.json
 ├── README.md
 └── tree.txt
 
-4 directories, 22 files
+6 directories, 25 files
